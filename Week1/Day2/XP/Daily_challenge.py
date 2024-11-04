@@ -1,14 +1,14 @@
 #Challenge 1
 
-# number = int(input('Give me a number'))
-# lenght = int(input('Give me a lenght'))
+number = int(input('Give me a number'))
+lenght = int(input('Give me a lenght'))
 
-# multiples = []
+multiples = []
 
-# for i in range(1, lenght + 1):
-#     multiples.append(number * i)
+for i in range(1, lenght + 1):
+    multiples.append(number * i)
 
-# print(multiples)
+print(multiples)
 
 #Challenge 2
 
