@@ -1,17 +1,17 @@
 #Daily Challenge
 #EX1
-# word = input('Give me a word')
+word = input('Give me a word')
 
-# dictionary = {}
+dictionary = {}
 
-# for i,each_letter in enumerate(word):
-#     if each_letter in dictionary:
-#         dictionary[each_letter].append(i)
-#     else:
-#         dictionary[each_letter] = [i]
-# print(dictionary)
+for i,each_letter in enumerate(word):
+    if each_letter in dictionary:
+        dictionary[each_letter].append(i)
+    else:
+        dictionary[each_letter] = [i]
+print(dictionary)
 
-#EX2
+#EX2 - FOR CHECKER 
 
 #Case 1
 
@@ -45,6 +45,6 @@ print(integer_prices)
 aff_items = []
 
 for item, price in converted_prices.items():
-    if price <= new_wallet:
+    if price <= new_wallet: # I get stucked here with msg that there is a str vs int error. Is it because I needed to change the name variable price after converting to int?
         aff_items.append(item)
 print(aff_items)
