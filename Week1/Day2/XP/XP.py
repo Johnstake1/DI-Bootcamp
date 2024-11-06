@@ -50,6 +50,16 @@ while keep_asking:
         stored_values.append(input_sequence)
 print(stored_values)
 
+#Best way to do it for #EX2
+
+sequence = []
+for i in range(1,6):
+    decimal = i + 0.5
+    sequence.append(i)
+    sequence.append(decimal)
+
+print(sequence[1:-1])
+
 #EX5 For Loop
 List = []
 for i in range(1,21):
@@ -131,6 +141,26 @@ for age in new_family:
     else:
         ticket_price = 25
 print(ticket_price)
+
+#Review EX9
+ 
+ages =(input('add the ages of your family members, separated by space')).split()
+print(ages)
+
+total_cost = 0
+
+for each_age in ages:
+    if int(each_age) < 3:
+        total_cost=0
+    elif int(each_age) >= 3 and i <=12:
+        total_cost +=10
+    else:
+        total_cost += 15
+
+print(total_cost)
+
+#Another way of doing it by using WHILE LOOP
+ 
 
 #EX10
 sandwich_orders = ["Tuna sandwich", "Pastrami sandwich", "Avocado sandwich", "Pastrami sandwich", "Egg sandwich", "Chicken sandwich", "Pastrami sandwich"]

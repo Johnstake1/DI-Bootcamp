@@ -49,7 +49,7 @@ print(family)
 
 
 #another way of doing it is using a FLAG
-family = [[]]
+family = []
 keep_asking = True
 while keep_asking:
     members = input('Write the family member name. Press Q to finish')
