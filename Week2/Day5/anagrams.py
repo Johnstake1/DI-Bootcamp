@@ -1,5 +1,5 @@
 from anagram_checker import AnagramChecker
-
+#FOR CHECKER - I cannot make to print the anagrams. It can only check that there are anagrams
 class Anagram_Menu(AnagramChecker):
     def __init__(self):
         super().__init__() #calls the functions from the backend
@@ -10,7 +10,7 @@ class Anagram_Menu(AnagramChecker):
             print('Select an option:')
             print('1. Write a word')
             print('2. Exit')
-            response = input('Select 1 or 2')
+            response = input('Select 1 or 2\n')
 
             if response == '2':
                 print('See you next time!')
